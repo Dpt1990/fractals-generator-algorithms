@@ -144,6 +144,19 @@ unicode = ["unicodedata2 (>=15.1.0)"]
 woff = ["brotli (>=1.0.1)", "brotlicffi (>=0.8.0)", "zopfli (>=0.1.4)"]
 
 [[package]]
+name = "fractal"
+version = "0.3.0"
+description = "对分形比较感兴趣，看pypi上没有相关库，自己撸着玩"
+optional = false
+python-versions = "*"
+files = [
+    {file = "fractal-0.3.0.tar.gz", hash = "sha256:e43a39b1c681cf55fa4b60918ecd650fea2b6ef16ee076bb49695be51da16463"},
+]
+
+[package.dependencies]
+pygame = ">=1.9.3"
+
+[[package]]
 name = "kiwisolver"
 version = "1.4.5"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -571,4 +584,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.12"
-content-hash = "9c9ebfb3664af3f5263c77c6f85436f36d32cc433ae94aba1237a399edf66e30"
+content-hash = "4089594a832fc9e7383ce07005c3c63cd26343e36d2461892060a21370f9911d"
